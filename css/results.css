@@ -1,0 +1,66 @@
+body {
+  background-color:#eaf8ff;
+  background-image:url("../images/result_bg.jpg");
+  background-repeat:no-repeat;
+  background-position:top center;
+}
+.character {
+  width:100%;
+  max-width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:20px;
+}
+.result {
+  max-width:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.result .box {
+  min-height:70px;
+  background-color:#fff;
+  margin-bottom:15px;
+  border-radius:20px;
+  display:flex;
+  justify-content:center;
+  font-size:24px;
+  font-weight:500;
+  line-height:1.4;
+  text-align:center;
+  padding:30px 10px 30px 10px;
+}
+.result h3 {
+  font-size:30px;
+  font-weight:700;
+  line-height:1.4;
+  text-align:center;
+  margin-top:40px;
+  margin-bottom:20px;
+}
+.result .jobs{
+  height:200px;
+  display:flex;
+  gap:10px;
+  /* flex로 수평배열된 자식들 사이에 공간을 만들어주는 속성. space-between과 비슷한 속성인 것 같음. */
+}
+.result .job {
+  background-color:#fff;
+  flex:1;
+  /* 가로너비의 비율을 지정할 수 있는 명령. 1은 1:1비율 즉 같은 비율로 만들어달라는 것 */
+  background-image:url("../images/result_star.png");
+  background-position:center center;
+  background-repeat:no-repeat;
+  font-size:30px;
+  font-weight:700;
+  line-height:1.4;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border:1px solid #ffe603;
+  border-radius:20px;
+}
+.result .lecture img {
+  margin-bottom:40px;
+  width:100%;
+}

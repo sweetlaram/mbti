@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="내숨캐" />
+  <meta property="og:title" content="내 안에 숨어있는 직업캐 찾기!" />
+  <meta property="og:description" content="누구나 찰떡인 직업이 있어요! 내 안에 숨어있는 직업캐를 찾아보세요!" />
+  <meta property="og:image" content="/images/thumbnail.jpg" />
+  <meta property="og:url" content="https://prismatic-monstera-4c9d6a.netlify.app/" />
+
+  <!-- Twitter Cards -->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="내숨캐" />
+  <meta property="twitter:title" content="내 안에 숨어있는 직업캐 찾기!" />
+  <meta property="twitter:description" content="누구나 찰떡인 직업이 있어요! 내 안에 숨어있는 직업캐를 찾아보세요!" />
+  <meta property="twitter:image" content="/images/thumbnail.jpg" />
+  <meta property="twitter:url" content="https://prismatic-monstera-4c9d6a.netlify.app/" />
+  <title>내 안에 숨어있는 직업캐 찾기!</title>
+  <link rel="icon" href="favicon.png">
+  <!-- html에 아이콘이 자동으로 불러와지지 않는 경우 위같이 link에 icon을 선언하여 루트경로 없이 파일명만 적어도 페이지에 아이콘이 저장됨!(favicon=favorite icon의 줄임말, 자동으로 찾아 저장하므로 파일명은 굳이 바꾸지말것.) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/questions.css">
+  <script type="module" defer src="./js/questions.js"></script>
+  <!-- type=module 의미는 A라는 js파일에서 다른 js파일을 가져와서 쓸 수 있음/ 파일로 구분되어있음/ 파일로 구분된 내용들을 가져와서 쓰는 모듈 타입이라는 뜻! -->
+</head>
+<body>
+  <div class="progress">
+    <div class="value"></div>
+  </div>
+  <div class="question-box">
+    <div class="number"></div>
+    <div class="question"></div>
+    <div class="btn btn-gray choice choice1"></div>
+    <div class="btn btn-gray choice choice2"></div>
+  </div>
+</body>
+</html>
